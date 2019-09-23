@@ -6,8 +6,9 @@
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.1.0",
-    "quick.db": "^7.0.0-b22",
-    "rss-feed-emitter": "^2.0.1"
+    "rss-feed-emitter": "^2.0.1",
+    "sequelize": "^5.19.0",
+    "sqlite3": "^4.1.0"
   },
   "devDependencies": {},
   "scripts": {
