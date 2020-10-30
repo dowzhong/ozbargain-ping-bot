@@ -33,7 +33,7 @@ client.on('message', async message => {
 
         feeder.add({
             url: `https://www.ozbargain.com.au/product/${itemToWatch.replace(/ +/g, '-')}/feed`,
-            refresh: 1000 * 60 * 60
+            refresh: 1000 * 60 * 15
         });
         message.reply(`Watching **${itemToWatch}** for you.`);
     }
